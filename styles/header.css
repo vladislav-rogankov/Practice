@@ -1,0 +1,99 @@
+.nav_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 71px;
+}
+
+.nav {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #ffffff;
+  float: left;
+  margin: 10px;
+}
+
+a {
+  color: #ffffff;
+}
+
+.right_container {
+  display: flex;
+  float: right;
+}
+
+.logo {
+  background: url(./images/logo-desktop.png);
+  margin-top: 53px;
+  margin-left: 110px;
+}
+
+.img1 {
+  background: url(/images/index-background-desktop.png);
+  width: 720px;
+  height: 696px;
+  position: relative;
+}
+
+.img2 {
+  position: absolute;
+  margin-top: 141px;
+  margin-left: 250px;
+}
+
+.left_container {
+  margin-left: 190px;
+}
+
+.left1 {
+  width: 414px;
+  height: 120px;
+
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  color: #000000;
+  margin-top: 200px;
+}
+
+.left2 {
+  width: 283px;
+
+  margin-top: 330;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+}
+
+button {
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  width: 244px;
+  height: 54px;
+  background-color: #68b738;
+  border: 0px;
+  
+  
+  margin-top: 30px;
+}
+
+.button_text {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 0px;
+  text-transform: uppercase;
+  color: #ffffff;
+}

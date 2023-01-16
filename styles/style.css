@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Oswald:wght@700&family=Roboto+Condensed&display=swap");
+
+body {
+  min-width: 768px;
+  
+}
+.main_container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  flex-wrap: wrap;
+  margin-left: 50px;
+  justify-content: space-between;
+  
+}
+.container_1 {
+  width: 570px;
+  height: 374px;
+  background-color: gainsboro;
+  margin-top: 50px;
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container_2 {
+  width: 570px;
+  height: 374px;
+  background-color: gainsboro;
+  margin-top: 50px;
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  
+}
+
+.image_1 {
+  width: 100px;
+  height: 100px;
+  background: url(/images/cat_back.png);
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.image_2 {
+  width: 134px;
+  height: 100px;
+  background: url(/images/cat_back2.png);
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.h {
+  width: 207px;
+  height: 36px;
+  padding-left: 40px;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  /* identical to box height, or 100% */
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+}
+
+.text_1 {
+  width: 467px;
+  height: 72px;
+  margin-left: 50px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #000000;
+}
+
+.text_2 {
+  margin-left: 50px;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.arrow {
+  width: 32px;
+  height: 12px;
+  margin-top: 25px;
+  
+}
