@@ -33,7 +33,7 @@ a {
 }
 
 .img1 {
-  background: url(/images/index-background-desktop.png);
+  background: url(./images/index-background-desktop.png);
   width: 720px;
   height: 696px;
   position: relative;
@@ -76,15 +76,14 @@ a {
 
 button {
   display: flex;
-  
+
   justify-content: center;
   align-items: center;
   width: 244px;
   height: 54px;
   background-color: #68b738;
   border: 0px;
-  
-  
+
   margin-top: 30px;
 }
 
